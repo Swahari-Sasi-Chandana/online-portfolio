@@ -34,7 +34,20 @@ body {
     border-left: 5px solid #007bff;
 }
 
-/* Typing Animation */
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+}
+
+/* Typing */
 .typing {
     border-right: 3px solid white;
     white-space: nowrap;
@@ -55,7 +68,7 @@ body {
 /* Dark Mode */
 .dark-mode {
     background-color: #121212;
-    color: #ffffff;
+    color: white;
 }
 
 .dark-mode .navbar {
@@ -63,7 +76,8 @@ body {
 }
 
 .dark-mode .card,
-.dark-mode .edu-card {
+.dark-mode .edu-card,
+.dark-mode ul li {
     background-color: #1e1e1e;
     color: white;
 }
