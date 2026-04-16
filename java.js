@@ -1,13 +1,12 @@
-// AOS Animation
+// AOS
 AOS.init({
     duration: 1000,
     once: true
 });
 
-// Dark Mode Toggle
+// Dark Mode
 const toggleBtn = document.getElementById("themeToggle");
 
-// Load saved theme
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
     toggleBtn.innerHTML = "☀️";
